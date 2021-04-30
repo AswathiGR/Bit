@@ -37,7 +37,7 @@ class Calculator
 		prdt=m*n;
 	    cout<<"Product is "<<prdt;}
 	void Calculator::Division(void)
-	{   cout<<"\nEnter two numbers for Division \n";
+	{   cout<<"Enter two numbers for Division \n";
 		cin>>m;
 		cin>>n;
 		div=m/n;
