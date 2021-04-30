@@ -46,10 +46,10 @@ int main()
 
 {   Calculator result;
 	cout<<"Choose which operation to be preformed from option a,b,c,d\n";
-		cout<<"\na. Addition\n";
-		cout<<"\nb.Subtraction\n";
-		cout<<"\nc.Multiplication\n";
-		cout<<"\nd.Division\n";
+		cout<<"a. Addition\n";
+		cout<<"b.Subtraction\n";
+		cout<<"c.Multiplication\n";
+		cout<<"d.Division\n";
 		char operation;
 		cin>>operation;
 	 if (operation == 'a')
