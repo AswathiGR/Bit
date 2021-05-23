@@ -1,0 +1,54 @@
+#include<iostream>
+using namespace std;
+class summation
+{
+	public:
+	int x,s=0,m=s;
+	 
+	void summation1(void)
+	{    cout << "Enter the number : ";
+		 cin >> x;
+		 while (x != 0) 
+        {
+	  
+      
+      s = s + x % 10;
+      x = x / 10;
+      
+        }
+    cout << "\nThe sum of the digits : "<< s;
+    if (s > 9) 
+    {
+	    while (s != 0) 
+	
+	    {
+       
+        m += s % 10;
+        s= s/10;
+        
+	    }
+	    cout << "\nThe sum of tHe digits : "<< m;
+    }
+	else
+	{
+		cout<<"\nThere is no further summation since a single digit is obtained";
+		
+	}
+    }
+};
+	 
+	
+
+    
+   
+    
+int main() 
+{
+	
+     
+   
+   summation sum;
+   sum.summation1();
+   
+    
+}
